@@ -1,3 +1,24 @@
-p{
+body{
+    background-color: yellow;
+}
+p, h1 {
     color: green;
+}
+nav {
+    background-color: green;
+    color: yellow;
+    text-align: right;
+}
+li {
+    padding-left: 20px;
+    display: inline;
+    list-style-type: none;
+}
+main{
+    text-align: center;
+}
+img{
+    max-width: 340px;
+    border-radius: 25%;
+    border: 5px green solid;
 }
